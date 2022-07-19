@@ -37,5 +37,17 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 Run npm i in the terminal to add the npm packages required. Then in the terminal run node server to get the program to work in insomina
 
 ## Screenshots
+Screenshot below shows the route to get all users that have been created
+
+![screenshot of all users](./public/images/allusers.png)
 
 
+Screenshot below shows all thoughts that have been created by the users
+
+![screenshot of all thoughts](./public/images/allthoughts.png)
+
+Final screenshot is how to add a user to the database
+![screenshot of how to add user](./public/images/adduser.png)
+
+## Questions
+If you have any questions please feel free to reach me at mclanea92@gmail.com
