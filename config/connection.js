@@ -1,3 +1,4 @@
+// connecting to mongoose
 const { connect, connection } = require('mongoose');
 
 

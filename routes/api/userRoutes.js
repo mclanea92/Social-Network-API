@@ -1,3 +1,4 @@
+// all routes for the user
 const router = require('express').Router();
 const {
   getAllUsers,

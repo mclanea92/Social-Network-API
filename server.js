@@ -1,3 +1,5 @@
+
+// creating the server to run though insomina
 const express = require('express');
 const routes = require('./routes');
 const db = require('./config/connection');
