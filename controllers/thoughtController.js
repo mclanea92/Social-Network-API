@@ -1,3 +1,4 @@
+const { Schema, Types } = require('mongoose');
 const { User, Thought } = require('../models');
 
 module.exports = {
@@ -81,7 +82,7 @@ module.exports = {
     deleteReaction(req, res) {
         Thought.findOneAndUpdate(
             { _id: req.params.thoughtId },
-            { $pull: { reactions: { reactionId: req.params.reactionId } } },
+            { $pull: { reactions: { _id: Types.ObjectId(req.params.reactionId) } } },
             { runValidators: true, new: true }
         )
         .then((thought) => 
